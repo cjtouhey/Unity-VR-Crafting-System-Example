@@ -7,11 +7,12 @@ using UnityEngine.InputSystem.XR;
 public class CraftSpawner : MonoBehaviour
 {
     public GameObject chosenCraftItem; // The object to be spawned
-    public float spawnOffset = 0.1f; // Offset to ensure the spawned object is above the mesh
-    [SerializeField] float spawnRadius = 10f; // Radius within which the object can be spawned
-    public LayerMask layerMask; // Layer mask for raycasting
-    public craftState craft; // State of crafting process
     public GameObject XRrightController; // Reference to the right controller object
+    public craftState craft; // State of crafting process
+    
+    [SerializeField] float spawnOffset = 0.1f; // Offset to ensure the spawned object is above the mesh
+    [SerializeField] float spawnRadius = 10f; // Radius within which the object can be spawned
+    [SerializeField] LayerMask layerMask; // Layer mask for raycasting
 
  
 
