@@ -11,9 +11,9 @@ public class UiPhysicalInteractor : MonoBehaviour
     public GameObject thisCraftItem; // Current craft item
 
     [Header("Requirements")]
-    public int woodAmount; // Amount of wood required
-    public int clothAmount; // Amount of cloth required
-    public int scrapAmount; // Amount of scrap required
+    [SerializeField] int woodAmount; // Amount of wood required
+    [SerializeField] int clothAmount; // Amount of cloth required
+    [SerializeField] int scrapAmount; // Amount of scrap required
 
     [SerializeField] bool canSpawn; // Flag to check if crafting is possible
 
