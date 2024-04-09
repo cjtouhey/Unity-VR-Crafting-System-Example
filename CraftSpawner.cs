@@ -6,7 +6,7 @@ using UnityEngine.InputSystem.XR;
 
 public class CraftSpawner : MonoBehaviour
 {
-    public GameObject chosenCraftItem; // The object to be spawned
+    [SerializeField] GameObject chosenCraftItem; // The object to be spawned
     public GameObject XRrightController; // Reference to the right controller object
     public craftState craft; // State of crafting process
     
